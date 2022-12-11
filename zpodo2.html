@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeFace</title>
+    <link rel="icon" type="img/x-icon" href="img/novi.png">
+</head>
+<style>
+
+ body{
+ background-color:rgb(216, 216, 195);
+
+ }   
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Header/logo Title */
+    .header {
+        background: rgb(228,219,164);
+        background: rgb(228,219,164);
+background: linear-gradient(90deg, rgba(228,219,164,1) 0%, rgba(228,201,170,0.6339031339031339) 50%, rgba(186,168,144,0.7621082621082621) 100%);
+      padding: 80px;
+      text-align: center;
+
+      color: beige;
+    }
+    
+    /* Increase the font size of the heading */
+    .header h1 {
+      font-size: 40px;
+    }
+    
+    
+    /* Column container */
+    .row {  
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+    }
+    
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      -ms-flex: 30%; /* IE10 */
+      flex: 30%;
+      background-color: black;
+      opacity: 0.5;
+      padding: 20px;
+      color: beige;
+      border: 1px solid white;
+      
+    }
+    
+    /* Main column */
+    .main {   
+      -ms-flex: 70%; /* IE10 */
+      flex: 70%;
+      background-color: rgb(0, 0, 0);
+      opacity: 0.8;
+      padding: 20px;
+      color:beige;
+      
+    }
+    
+
+    .fakeimmg {
+     background-image:url(img/Apoli.png);
+     background-repeat: no-repeat;
+     width: 1000px;
+     padding: 10px;
+   
+    }   
+    
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+    }
+    
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row {   
+        flex-direction: column;
+      }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
+        width: 100%;
+      }
+    }
+
+
+
+ * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: center;
+  width: 19.8%;
+  padding: 3px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+t{   
+ margin-top: 100px;
+      margin-bottom: 5px ;
+      margin-right: 25px ;
+      margin-left: 80px ;
+}
+
+
+a:link, a:visited {
+  background-color: rgb(199, 167, 167);
+  color: white;
+ text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ width: 100%;
+padding: 20px;
+    
+}
+
+a:hover, a:active {
+  background-color: rgb(116, 91, 91);
+  color: black;
+}
+
+footer {
+    text-align: center;
+   padding: 10px;
+    width: 1550px ;
+    background: rgb(173, 146, 124);
+    opacity: 0.9;
+    color: beige;
+  } 
+
+
+    </style>
+    </head>
+    <body>
+    
+ <div class="header">
+      <h1>P O D O L O G I A</h1>
+ </div>
+
+<div class="row">
+<div class="side">
+<h3 style="text-align:center">O QUE É PODOLOGIA GERIÁTRICA?</h3>
+<div class="t">
+<p style="font-size: medium ;text-align:left">Podologia geriátrica visa os aspectos preventivos da atenção à saúde dos pés da pessoa idosa <br>
+ e tem por objetivo amenizar alterações nos pés,
+ causadas ou agravadas pelo processo de envelhecimento,
+  primando pela melhora na qualidade de vida.
+<br>
+
+<br>
+ A Podogeriatria é uma especialização da podologia que cuida de pacientes da terceira idade, pois, 
+ nesta fase da vida, muitos pacientes não conseguem cuidar plenamente de si mesmos.    Nota-se que a alteração na deambulação (caminhar), muito comum nos idosos,
+não gera só problemas físicos, mas também transtornos psicológicos, por exemplo: reclusão, irritação, depressão e baixa autoestima.
+<br>
+<h3 style="text-align: center;">COMO CUIDAR DO SEUS PÉS?</h3> 
+<p style="font-size: medium ;text-align:left">
+Nós recomendamos: <br>
+■ Usar calçados apropriados <br>
+■ Ter uma hidratação correta <br>
+■ Use modelos, se necessário <br>
+■ Visitar o podólogo regularmente: o atendimento regular por um podólogo pode melhorar a independência de uma pessoa idosa e prevenir quedas.
+</p></div>   
+<br>
+
+<a href="file:///C:/Users/ccate/Desktop/HTMLWORKS/zAGENDA3.html" target="_blank"> <div class="fakeimgg" style=" height:45px;"><p style="font-size:x-large">Marcar minha consulta!</p></div>
+</a>
+</div>
+
+
+<div class="main">
+<h2>GERIATRICA</h2>
+<h5>Mais que estética somos saúde</h5>
+ <div class="fakeimmg" style="height:355px;">Image</div>
+
+<div class="row">
+    <div class="column">
+      <img src="img/Apo.png" alt="Snow" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="img/abuc.png" alt="Forest" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="img/Apododo.png" alt="Mountains" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="img/Apodo.png" alt="Mountains" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="img/podo2 - copia.png" alt="Mountains" style="width:100%">
+      </div>   
+  </div>
+</div>
+<br>
+<footer>
+  <img src="img/01-f.png">
+  <img src="img/02-i.png">
+  <img src="img/03-phone.png">
+  <img src="img/004-loocation.png">
+  <img src="img/mail (1).png">
+  <p style="color:white;">For more information:<br>
+  <a href="mailto:ccaterina.dm@gmail.com" style="color:black; text-decoration:none">ccaterina.dm@gmail.com</a></p>
+</footer>
+
+</div>
+</body>
+
+</body>
+</html>
+    

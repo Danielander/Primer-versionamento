@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeFace</title>
+    <link rel="icon" type="img/x-icon" href="img/novi.png">
+</head>
+<style>
+body{
+ background-color:rgb(216, 216, 195);
+       
+}   
+.header {
+    background: rgb(228,219,164);
+    background: rgb(228,219,164);
+    background: linear-gradient(90deg, rgba(228,219,164,1) 0%, rgba(228,201,170,0.6339031339031339) 50%, rgba(186,168,144,0.7621082621082621) 100%);
+     padding: 80px;
+     text-align: center;  
+    color: beige;
+} 
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(216, 216, 195);
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a.active {
+    background: rgb(228,219,164);
+    background: rgb(228,219,164);
+    background: linear-gradient(90deg, rgba(228,219,164,1) 0%, rgba(228,201,170,0.6339031339031339) 50%, rgba(186,168,144,0.7621082621082621) 100%);
+  color: beige;
+}
+
+li a:hover:not(.active) {
+ background: rgb(198, 168, 143);
+  color: beige;
+}
+  
+footer {
+text-align: center;
+padding: 10px;
+width: 1550px ;
+ background: rgb(173, 146, 124);
+ opacity: 0.9;
+color: beige;
+ }   
+    
+ * {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+
+    background-color:rgb(216, 216, 195);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+    background: rgb(198, 168, 143);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #dbc8b4;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.persi{
+color: beige;    
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}   
+
+</style>
+<body>
+<div class="header"><h1>A G E N D A M E N T O</h1>
+  <p>TRATAMENTOS CORPORAIS</p>
+</div> 
+
+ <ul>
+<li><a class="active"><a href="file:///C:/Users/ccate/Desktop/HTMLWORKS/zzz.html"> <img src="img/homies.png"></a></li>
+</ul>   
+<br>
+<div class="container">
+    <form action="/action_page.php">
+    <div class="row">
+    <div class="col-25">
+    <label for="fname">Nome Completo*</label>
+    </div>
+    <div class="col-75">
+    <input type="text" id="fname" name="firstname" placeholder="Nome Completo" required>
+    </div>
+
+</div>
+<div class="row">
+<div class="col-25">
+<label for="lname">Email*</label>
+</div>
+<div class="col-75">
+<input type="text" id="email" name="email" placeholder="Email" required>
+</div>
+
+
+ </div>
+ <div class="row">
+ <div class="col-25">
+ <label for="lname">Telefone*</label>
+ </div>
+ <div class="col-75">
+ <input type="text" id="lname" name="lastname" placeholder="Telefone" required>
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-25">
+<label for="country">Tipo de Serviço*</label>
+</div>
+<div class="col-75">
+<select id="country" name="country">
+<option value="australia"></option>
+<option value="canada">Depilação definitva</option>
+ <option value="usa">Endermologia</option>
+ <option value="usa">Estrias e Manchas</option>
+        </select>
+
+
+</div>
+<div class="row">
+<div class="col-25">
+<label for="country">Horario de disponibilidade:*</label>
+</div>
+<div class="col-75">
+<select id="country" name="country">
+<option value="australia"></option>
+<option value="canada">8hr00</option>
+ <option value="usa">9hr50</option>
+ <option value="usa">10hr00</option>
+ <option value="usa">11hr50</option>
+ <option value="usa">12hr00</option>
+ <option value="usa">2hr30</option>
+</select>    
+
+</div>
+<div class="row">
+<div class="col-25">
+<label for="country">Dia:*</label>
+</div>
+<div class="col-75">
+<select id="country" name="country">
+<option value="australia"></option>
+<option value="canada">Segunda-feira</option>
+ <option value="usa">Terça-Feira</option>
+ <option value="usa">Quarta-feira</option>
+ <option value="usa">Sábado</option>
+</select>    
+      </div>
+    </div>
+
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+  </div>
+  
+
+
+<br>
+
+<footer>
+  <img src="img/01-f.png">
+  <img src="img/02-i.png">
+  <img src="img/03-phone.png">
+  <img src="img/004-loocation.png">
+  <img src="img/mail (1).png">
+  <p style="color:white;">For more information:<br>
+  <a href="mailto:ccaterina.dm@gmail.com" style="color:black; text-decoration:none">ccaterina.dm@gmail.com</a></p>
+</footer>
+
+</div>
+
+
+</body>
+</html>
